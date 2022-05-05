@@ -1,0 +1,28 @@
+Header: Checking XLSX File
+Preconditions: archive with *.xlsx inside exists
+Steps:
+1. Parse zip archive;
+2. Pick a file with "xsls" extension to perform test;
+Expected Results: file has 51 rows, cell on row 6 and column 2 has value "Nereida"
+###################################################
+Header: Checking PDF File
+Preconditions: archive with *.pdf inside exists
+Steps:
+1. Parse zip archive;
+2. Pick a file with "pdf" extension to perform test;
+Expected Results: file has 5 pages in it, file is not encrypted
+###################################################
+Header: Checking PNG File
+Preconditions: archive with *.png inside exists
+Steps:
+1. Parse zip archive;
+2. Pick a file with "png" extension to perform test;
+Expected Results:image height is greater than 255, image is translucent
+###################################################
+Header: Checking CSV File
+Preconditions: archive with *.csv inside exists
+Steps:
+1. Parse zip archive;
+2. Pick a file with "csv" extension to perform test;
+Expected Results: file has 6 rows, row number 5 contains info about Mary Jenkins
+###################################################
