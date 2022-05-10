@@ -6,6 +6,7 @@ import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.io.File;
@@ -18,6 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class DownloadFilesTests {
     @Test
+    @Disabled
     @DisplayName("Download file test")
     @Owner("Tatiana Belotserkovskaia")
     @Severity(SeverityLevel.BLOCKER)
